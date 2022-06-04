@@ -58,3 +58,51 @@ result = division(20, 3)
 print(type(result))
 print(q)
 print(r)
+
+#GLOBAL and LOCAL variables
+
+#global variable
+NUMBER = 10
+
+def local_global_function():
+    #local variables
+    NUMBER = 15
+    #does the print functions print the local or the global variable or throws and error?
+    print(NUMBER)
+    #A/ it prints the local and ignores the global
+
+#it print the global
+print(NUMBER)
+local_global_function()
+
+#MOST RELEVANT BUILD-IN FUNCTIONS
+#print()
+#int()
+#type()
+#str()
+#range()
+#pow() - more efficient than **
+
+#RECURSION
+#It's a given function that calls itself
+#whe must have a base case that will stop the recursion
+#and a recursive call
+
+def sum_recursion(n):
+    #base case n = 0
+    if n == 0:
+        return 0
+    else:
+        return n + sum_recursion(n-1)
+
+print(sum_recursion(6))
+
+#factorial: n! = n * (n-1)! and 1! = 1
+def factorial(n):
+    #base case
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))
