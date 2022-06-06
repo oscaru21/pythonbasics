@@ -1,0 +1,6 @@
+This is the first line,
+second line
+this is another line
+OScar 
+30
+"this is a text inside of text"
