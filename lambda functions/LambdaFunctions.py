@@ -1,7 +1,6 @@
 #in order to define a lambda expression we need to follow this structure
 # lambda 'bound variable' : 'body of lambda expression'
 
-from audioop import mul
 
 number = lambda x: x + 1
 
