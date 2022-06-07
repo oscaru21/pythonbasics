@@ -98,7 +98,7 @@ print(my_dict.items())
 #object literal
 my_set = {'Oscar', 24}
 
-#dict() function
+#set() function
 my_set_2 = set(('Oscar', 24))
 
 #transform lists to set
